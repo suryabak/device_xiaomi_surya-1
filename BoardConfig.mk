@@ -131,7 +131,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/surya
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # LMKD
-TARGET_LMKD_STATS_LOG := true
+TARGET_LMKD_STATS_LOG := false
 
 # Media
 TARGET_USES_ION := true
