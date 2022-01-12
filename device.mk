@@ -120,9 +120,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_megvii
 
-PRODUCT_PACKAGES += \
-    Snap
-
 # GCamGO
 PRODUCT_PACKAGES += \
     GCamGO
