@@ -191,6 +191,13 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM7150
 
+# Dirac
+ro.audio.soundfx.dirac=true
+persist.audio.dirac.speaker=true
+persist.dirac.acs.controller=qem
+persist.dirac.acs.storeSettings=1
+persist.dirac.acs.ignore_error=1
+
 # HVDCP
 persist.vendor.cp.fcc_main_ua=400000
 persist.vendor.cp.taper_term_mv=6500
