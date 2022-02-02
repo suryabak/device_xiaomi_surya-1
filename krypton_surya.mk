@@ -34,3 +34,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Mark as official build
 OFFICIAL_BUILD := true
+
+# Target
+TARGET_SUPPORTS_QUICK_TAP := true
