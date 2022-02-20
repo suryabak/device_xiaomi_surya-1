@@ -1,16 +1,27 @@
 [
     {
-        "repository": "android_hardware_xiaomi",
-        "target_path": "hardware/xiaomi"
+        "repository": "Rain-Surya/android_hardware_xiaomi",
+        "target_path": "android/hardware/xiaomi"
+        "branch": "twelve",
+        "remote": "github"
     },
      {
-        "repository":"ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r437112",
-        "target_path":"prebuilts/clang/host/linux-x86/clang-r437112",
-        "branch":"master",
-        "remote":"github"
+        "repository": "kdrag0n/proton-clang",
+        "target_path": "prebuilts/clang/host/linux-x86/proton-clang",
+        "branch": "master",
+        "remote": "github"
+        "clone-depth": "1"
     },
      {
-        "repository":   "android_kernel_xiaomi_surya",
-        "target_path":  "kernel/xiaomi/surya"
+        "repository": "AOSP-Krypton/kernel_xiaomi_surya",
+        "target_path": "kernel/xiaomi/surya"
+        "branch": "A12",
+        "remote": "github"
+    }
+     {
+        "repository": "AOSP-Krypton/vendor_xiaomi_surya",
+        "target_path": "vendor/xiaomi/surya",
+        "branch": "A12",
+        "remote": "github"
     }
 ]
