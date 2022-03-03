@@ -12,6 +12,10 @@ vendor/lib/libadsprpc.so|c58fc8eb6c0919dc5c21e992a75996446d0107e5
 vendor/lib/libmdsprpc.so|85f8448bc9649fa618cbeb386efc2085c20ba1f7
 vendor/lib/libsdsprpc.so|e58239cc2cec4bad6d328b2f29295a247541ab1f
 
+# Camera provider
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
