@@ -7,6 +7,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
     arcore \
+    Camera2 \
     Chrome \
     Chrome-Stub \
     ConnMO \
@@ -14,9 +15,11 @@ LOCAL_OVERRIDES_PACKAGES := \
     DCMO \
     DevicePolicyPrebuilt \
     DMService \
+    GrapheneOS-Camera \
     Drive \
     GCS \
-    GoogleCamera \
+    GoogleFeedback \
+    LegacyCamera \
     Maps \
     MyVerizonServices \
     OBDM_Permissions \
@@ -33,6 +36,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     SCONE \
     ScribePrebuilt \
     Showcase \
+    SnapdragonCamera \
+    Snap \
     SoundAmplifierPrebuilt \
     SprintDM \
     SprintHM \
@@ -43,7 +48,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     VZWAPNLib \
     VzwOmaTrigger \
     YouTube \
-    YouTubeMusicPrebuilt
+    YouTubeMusicPrebuilt \
+    WellbeingPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
