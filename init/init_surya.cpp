@@ -92,4 +92,7 @@ void vendor_load_properties() {
    if (mod_device != "") {
         property_override("ro.product.mod_device", mod_device.c_str());
    }
+
+    // Set hardware revision
+    property_override("ro.boot.hardware.revision", GetProperty("ro.boot.hwversion", "").c_str());
 }
