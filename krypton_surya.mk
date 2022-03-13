@@ -37,3 +37,6 @@ OFFICIAL_BUILD := true
 
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
+
+# MaglogX AOSP-Krypton
+TARGET_BUILD_MATLOG := false
