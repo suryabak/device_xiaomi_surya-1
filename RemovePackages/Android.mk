@@ -7,6 +7,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
     arcore \
+    Camera \
     Camera2 \
     Chrome \
     Chrome-Stub \
@@ -16,7 +17,9 @@ LOCAL_OVERRIDES_PACKAGES := \
     DevicePolicyPrebuilt \
     DMService \
     GrapheneOS-Camera \
+    DevCamera \
     Drive \
+    grapheneos \
     GCS \
     GoogleFeedback \
     LegacyCamera \
