@@ -102,4 +102,5 @@ void vendor_load_properties() {
     property_set("ro.boot.vbmeta.device_state", "locked");
     property_set("vendor.boot.vbmeta.device_state", "locked");
     property_set("ro.boot.flash.locked", "1");
+    property_set("ro.oem_unlock_supported", "0");
 }
