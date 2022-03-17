@@ -2,6 +2,7 @@ type persist_lcd_prop, property_type;
 type xiaomiparts_app, domain;
 
 app_domain(xiaomiparts_app)
+typeattribute xiaomiparts_app mlstrustedsubject;
 
 allow xiaomiparts_app {
     activity_service
